@@ -36,7 +36,7 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  background: $theme-color;
+  background: #ffffff;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -49,7 +49,7 @@ p {
   order: 2;
   background: $theme-color;
   color: #fff;
-  border-radius: 30px 92px 42px 30px;
+  border-radius: 30px;
   a {
     color: #fff;
   }
@@ -166,6 +166,7 @@ p {
   grid-column: span 7;
   background: #fff;
   padding: 60px;
+  border-radius: 30px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;

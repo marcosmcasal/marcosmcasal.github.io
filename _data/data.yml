@@ -83,17 +83,6 @@ experiences:
           Trabajo en su totalidad para cliente Inditex en su cadena principal Zara.com en la parte de catalogo como backend developer. Inicialmente con desarrollos en el eCommerce de IBM llevando a cabo nuevos desarrollos a la par que se iba realizando la migracion hacia nueva arquitectura de microservicios y posteriores desarrollos.
           Zara.com - Catalog Backend
           eCommerce, db2, microservicios, rest, gRPC, openapi, Spring Reactor
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
       - role: Ingeniero de Software II
         time: Octubre 2010 - Febrero 2017
         company: Indra Software Labs
@@ -105,6 +94,13 @@ experiences:
           J2EE, SpringMVC, Hibernate, Maven, HTML, Javascript, Rest, Jquery, .Net, Weblogic, Oracle.
           Sede Electrónica - Xunta de Galicia
           J2EE, SpringMVC, Hibernate, JSP, OpenCM.
+      - role: Tecnico de Software
+        time: Abril 2004 - Febrero 2005
+        company: Letria S.L.
+        details: |
+          En Letria me he iniciado como desarrollador tras la finalización del ciclo que me ha servido para aprender cómo se desenvuelve una empresa a la par de adquirir nuevos conocimientos y brindarme la oportunidad de aprender muchas cosas.
+          Punto Informativo - Sistema de publicidad Interactivo
+          Visual basic, Flash, HTML
 projects:
     title: Otros
     intro: >

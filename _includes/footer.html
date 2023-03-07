@@ -5,9 +5,9 @@
     </div><!--//container-->
     {% for lang in site.languages %}
       {% if lang == site.default-lang %}
-        <a href=" {{ site.url }}">{{ lang }}</a>
+        <a href="{{ site.url }}">{{ lang }}</a>
       {% else %}
-        <a href="/{{ lang }}{{ page.url }}">{{ lang }}</a>
+        <a href="/{{ lang }}{{ site.url }}">{{ lang }}</a>
       {% endif %}
     {% endfor %}
 </footer><!--//footer-->

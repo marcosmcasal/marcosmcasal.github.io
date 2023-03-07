@@ -1,3 +1,1 @@
-Checkout the CV
-
-https://marcosmcasal.github.io/
+Checkout the [CV](https://marcosmcasal.github.io/)

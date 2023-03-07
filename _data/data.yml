@@ -155,10 +155,10 @@ skills:
       - name: Angular
         level: 60%
         
-       - name: Node.js
+      - name: Node.js
         level: 60%
         
-       - name: Python
+      - name: Python
         level: 60%
 
 footer: >

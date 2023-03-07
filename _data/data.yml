@@ -114,19 +114,19 @@ projects:
         tagline: "Aplicación ganadora concurso Windows 8 LCG"
 
       - title: Curso Android
-        link: "#"
+        link:
         tagline: "Curso 100 horas a traves de plataforma online."
 
       - title: Participación concursos Hacking y FastCode en múltiples Lan Partys.
-        link: "#"
+        link:
         tagline:
 
       - title: Asistencia a cursos, talleres y conferencias de diversas tecnologías.
-        link: "#"
+        link:
         tagline:
 
       - title: Aplicación de gestión para geriatrico.
-        link: "#"
+        link:
         tagline:
 
 skills:

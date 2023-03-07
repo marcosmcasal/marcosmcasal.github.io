@@ -28,7 +28,12 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
-
+    {% for project in experiences.projects %}
+    <div style="margin-left: 15px;">
+      <div class="item itemReduced">
+        <strong>{{ project.title }}</strong>
+      <div class="publication-authors">{{ project.technologies }}</div>
+    </div>
   </div><!--//item-->
   {% endfor %}
 

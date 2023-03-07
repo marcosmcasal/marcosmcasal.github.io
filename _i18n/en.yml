@@ -1,0 +1,164 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Marcos Casal Rodriguez
+    tagline: Backend Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: marcosmcasal@gmail.com
+    phone: +34 659953169
+    timezone: 
+    citizenship:
+    website: 
+    linkedin: mcasal
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: #http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Idiomas
+      info:
+        - idiom: Español
+          level: Nativo
+
+        - idiom: Gallego
+          level: Nativo
+
+        - idiom: Ingles
+          level: Medio/Alto
+
+    interests:
+      title: Intereses
+      info:
+        - item: Tecnologia
+          link:
+
+        - item: Informatica
+          link:
+
+        - item: Videojuegos
+          link:
+          
+        - item: Fotografia
+          link:
+
+career-profile:
+    title: Resumen
+    summary: |
+      Me considero informático por vocación, por ello disfruto de mi trabajo. Me apasiona cualquier área o tema relacionado con la informática y las nuevas tecnologías, estoy siempre dispuesto y encantado a aprender así como seguir desarrollándome.
+      Soy una persona de fácil adaptación, rápido desarrollo y alto grado de colaboración que siempre está dispuesto a ayudar a mis compañeros así como para aprender de ellos.
+      En mi experiencia me he formado en diversos tipos de proyectos y he experimentado múltiples lenguajes y tecnologías disfrutando de todas ellas adquiriendo un variado conocimiento y punto de vista.
+education:
+    title: Estudios
+    info:
+      - degree: Ingenieria Técnica en informática de gestión
+        university: Universidad de A Coruña
+        time: 2005 - 2010
+        details:
+      - degree: Técnico en informatica de gestión
+        university: C.P.R. Caixa Galicia
+        time: 2002 - 2004
+        details:
+experiences:
+    title: Experiencia
+    info:
+      - role: Ingeniero de Software
+        time: Febrero 2017 - Actualidad
+        company: atSistemas
+        details: |
+          Trabajo en su totalidad para cliente Inditex en su cadena principal Zara.com en la parte de catalogo como backend developer. Inicialmente con desarrollos en el eCommerce de IBM llevando a cabo nuevos desarrollos a la par que se iba realizando la migracion hacia nueva arquitectura de microservicios y posteriores desarrollos.
+        projects:
+          - title: Zara.com - Catalog Backend
+            technologies: eCommerce, db2, microservicios, rest, gRPC, openapi, Spring Reactor
+      - role: Ingeniero de Software II
+        time: Octubre 2010 - Febrero 2017
+        company: Indra Software Labs
+        details: |
+          En Indra he conseguido consolidarme con mis habilidades de Ingeniero de Software pasando por varios proyectos de diversa índole y con diferentes clientes, proporcionándome experiencia en proyectos tanto grandes como reducidos.
+        projects:
+          - title: Zeus - Gas Natural
+            technologies: J2EE, Spring, Hibernate, Maven, Jenkins, Sonar, Apache MQ, Adobe Flex.
+          - title: Registro Gallego de Comercio - Xunta de Galicia
+            technologies: J2EE, SpringMVC, Hibernate, Maven, HTML, Javascript, Rest, Jquery, .Net, Weblogic, Oracle.
+          - title: Sede Electrónica - Xunta de Galicia
+            technologies: J2EE, SpringMVC, Hibernate, JSP, OpenCM.
+      - role: Tecnico de Software
+        time: Abril 2004 - Febrero 2005
+        company: Letria S.L.
+        details: |
+          En Letria me he iniciado como desarrollador tras la finalización del ciclo que me ha servido para aprender cómo se desenvuelve una empresa a la par de adquirir nuevos conocimientos y brindarme la oportunidad de aprender muchas cosas.
+        projects:
+          - title: Punto Informativo - Sistema de publicidad Interactivo
+            technologies: Visual basic, Flash, HTML
+projects:
+    title: Otros
+    intro: >
+      Además de mi formación oficial me gusta participar activamente en eventos informáticos, cursos o desarrollo de pequeños proyectos personales con al afán de aprender y mejorar, entre otros muchos se podrían destacar los siguientes.
+    assignments:
+      - title: Hackathon Windows 8 LCG
+        link: "https://learn.microsoft.com/es-es/archive/blogs/esmsdn/primer-hackathon-windows-8-multiciudad-el-megathonw8"
+        tagline: "Aplicación ganadora concurso Windows 8 LCG"
+
+      - title: Curso Android
+        link:
+        tagline: "Curso 100 horas a traves de plataforma online."
+
+      - title: Participación concursos Hacking y FastCode en múltiples Lan Partys.
+        link:
+        tagline:
+
+      - title: Asistencia a cursos, talleres y conferencias de diversas tecnologías.
+        link:
+        tagline:
+
+      - title: Aplicación de gestión para geriatrico.
+        link:
+        tagline:
+
+skills:
+    title: CONOCIMIENTOS TECNICOS
+
+    toolset:
+      - name: JavaEE
+        level: 98%
+
+      - name: Spring & Hibernate
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Action Script
+        level: 85%
+
+      - name: .Net
+        level: 60%
+        
+      - name: Angular
+        level: 60%
+        
+      - name: Node.js
+        level: 60%
+        
+      - name: Python
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

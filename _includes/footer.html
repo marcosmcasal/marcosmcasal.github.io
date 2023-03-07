@@ -7,7 +7,7 @@
       {% if lang == site.default-lang %}
         <a href="{{ site.url }}">{{ lang }}</a>
       {% else %}
-        <a href="/{{ lang }}{{ site.url }}">{{ lang }}</a>
+        <a href="{{ site.url }}/{{ lang }}">{{ lang }}</a>
       {% endif %}
     {% endfor %}
 </footer><!--//footer-->

@@ -31,7 +31,11 @@ compress_html: # - http://jch.penibelst.de/
     envs: development
 
 lang: en
-
+site:
+  languages:
+    - es
+    - en
+  
 # Development Settings
 port: 4000
 host: 0.0.0.0

@@ -35,17 +35,6 @@ languages:
   - es
   - en
 
-plugins:
-  - jekyll-multiple-languages-plugin
-  
-languages: ["en", "es"]
-default_lang: "es"
-exclude_from_localization: ["assets/css", "assets/img"]
-parallel_localization: true
-
-sass:
-  sourcemap: never
-
 # Development Settings
 port: 4000
 host: 0.0.0.0

@@ -3,108 +3,86 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Marcos Casal Rodriguez
+    tagline: Backend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: marcosmcasal@gmail.com
+    phone:+34 659953169
+    timezone: 
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: 
+    linkedin: mcasal
+    xing: 
+    github: 
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: #http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
-        - idiom: English
-          level: Native
+        - idiom: Español
+          level: Nativo
 
-        - idiom: French
-          level: Professional
+        - idiom: Gallego
+          level: Nativo
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Ingles
+          level: Medio/Alto
 
     interests:
-      title: Interests
+      title: Intereses
       info:
-        - item: Climbing
+        - item: Tecnologia
           link:
 
-        - item: Snowboarding
+        - item: Informatica
           link:
 
-        - item: Cooking
+        - item: Videojuegos
+          link:
+          
+        - item: Fotografia
           link:
 
 career-profile:
-    title: Career Profile
+    title: Resumen
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Me considero informático por vocación, por ello disfruto de mi trabajo. Me apasiona cualquier área o tema relacionado con la informática y las nuevas tecnologías, estoy siempre dispuesto y encantado a aprender así como seguir desarrollándome.
+      Soy una persona de fácil adaptación, rápido desarrollo y alto grado de colaboración que siempre está dispuesto a ayudar a mis compañeros así como para aprender de ellos.
+      En mi experiencia me he formado en diversos tipos de proyectos y he experimentado múltiples lenguajes y tecnologías disfrutando de todas ellas adquiriendo un variado conocimiento y punto de vista.
 education:
-    title: Education
+    title: Estudios
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Ingenieria Técnica en informática de gestión
+        university: Universidad de A Coruña
+        time: 2005 - 2010
+        details:
+      - degree: Técnico en informatica de gestión
+        university: C.P.R. Caixa Galicia
+        time: 2002 - 2004
+        details:
 experiences:
-    title: Experiences
+    title: Experiencia
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Ingeniero de Software
+        time: Febrero 2017 - Actualidad
+        company: atSistemas
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Trabajo en su totalidad para cliente Inditex en su cadena principal Zara.com en la parte de catalogo como backend developer. Inicialmente con desarrollos en el eCommerce de IBM llevando a cabo nuevos desarrollos a la par que se iba realizando la migracion hacia nueva arquitectura de microservicios y posteriores desarrollos.
+          Zara.com - Catalog Backend
+          eCommerce, db2, microservicios, rest, gRPC, openapi, Spring Reactor
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
@@ -116,105 +94,71 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Ingeniero de Software II
+        time: Octubre 2010 - Febrero 2017
+        company: Indra Software Labs
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          En Indra he conseguido consolidarme con mis habilidades de Ingeniero de Software pasando por varios proyectos de diversa índole y con diferentes clientes, proporcionándome experiencia en proyectos tanto grandes como reducidos.
+          Zeus - Gas Natural
+          J2EE, Spring, Hibernate, Maven, Jenkins, Sonar, Apache MQ, Adobe Flex.
+          Registro Gallego de Comercio - Xunta de Galicia
+          J2EE, SpringMVC, Hibernate, Maven, HTML, Javascript, Rest, Jquery, .Net, Weblogic, Oracle.
+          Sede Electrónica - Xunta de Galicia
+          J2EE, SpringMVC, Hibernate, JSP, OpenCM.
 projects:
-    title: Projects
+    title: Otros
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Además de mi formación oficial me gusta participar activamente en eventos informáticos, cursos o desarrollo de pequeños proyectos personales con al afán de aprender y mejorar, entre otros muchos se podrían destacar los siguientes.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Hackathon Windows 8 LCG
+        link: "https://learn.microsoft.com/es-es/archive/blogs/esmsdn/primer-hackathon-windows-8-multiciudad-el-megathonw8"
+        tagline: "Aplicación ganadora concurso Windows 8 LCG"
 
-      - title: DevStudio
+      - title: Curso Android
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Curso 100 horas a traves de plataforma online."
 
-      - title: Tempo
+      - title: Participación concursos Hacking y FastCode en múltiples Lan Partys.
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline:
 
-      - title: Atom
+      - title: Asistencia a cursos, talleres y conferencias de diversas tecnologías.
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline:
 
-      - title: Delta
+      - title: Aplicación de gestión para geriatrico.
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        tagline:
 
 skills:
-    title: Skills &amp; Proficiency
+    title: CONOCIMIENTOS TECNICOS
 
     toolset:
-      - name: Python & Django
+      - name: JavaEE
+        level: 98%
+
+      - name: Spring & Hibernate
         level: 98%
 
       - name: Javascript & jQuery
         level: 98%
 
-      - name: Angular
-        level: 98%
-
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Action Script
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: .Net
+        level: 60%
+        
+      - name: Angular
+        level: 60%
+        
+       - name: Node.js
+        level: 60%
+        
+       - name: Python
         level: 60%
 
 footer: >

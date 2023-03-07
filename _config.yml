@@ -33,8 +33,8 @@ compress_html: # - http://jch.penibelst.de/
 lang: en
 site:
   languages:
-    - es
-    - en
+    english: en
+    spanish: es
   
 # Development Settings
 port: 4000

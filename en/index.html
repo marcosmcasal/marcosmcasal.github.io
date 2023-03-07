@@ -7,7 +7,7 @@ language: en
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless site.data[page.language].sidebar.education %}
   {% include education.html %}
 {% endunless %}
 

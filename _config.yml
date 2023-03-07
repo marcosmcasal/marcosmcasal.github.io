@@ -30,6 +30,8 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
+lang: en
+
 # Development Settings
 port: 4000
 host: 0.0.0.0

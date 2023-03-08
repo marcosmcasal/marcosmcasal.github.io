@@ -161,7 +161,10 @@ p {
     }
   }
 }
-
+.langSelector {
+  position: absolute;
+  margin-left: 80%;
+}
 .main-wrapper {
   grid-column: span 7;
   background: #fff;

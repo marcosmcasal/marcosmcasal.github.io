@@ -8,17 +8,16 @@
 {% include head.html %}
 
 <body>
-  <div class="langSelector">
-    {% for lang in site.languages %}
-      {% if lang == site.default-lang %}
-        <a href="{{ site.url }}">{{ lang }}</a>
-      {% else %}
-        <a href="{{ site.url }}{{ lang }}">{{ lang }}</a>
-      {% endif %}
-    {% endfor %}
-  </div>
-  
   <div class="wrapper">
+    <div class="langSelector">
+      {% for lang in site.languages %}
+        {% if lang == site.default-lang %}
+          <a href="{{ site.url }}">{{ lang }}</a>
+        {% else %}
+          <a href="{{ site.url }}{{ lang }}">{{ lang }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
     {% include sidebar.html %}
 
     <div class="main-wrapper">

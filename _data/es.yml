@@ -36,7 +36,7 @@ education:
     title: Estudios
     info:
       - degree: Ingenieria Técnica en informática de gestión
-        university: Universidad de A Coruña
+        university: Universidad da Coruña
         time: 2005 - 2010
         details:
       - degree: Técnico en informatica de gestión
@@ -131,4 +131,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
